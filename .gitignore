@@ -1,0 +1,56 @@
+# Python bytecode and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+.coverage
+*.swp
+*~
+\#*\#
+
+# Virtual environment
+venv/
+.venv/
+env/
+.env/
+*/site-packages/*
+
+# Log files and data
+*.log
+*.out
+data/  # Or whatever directory you might use to store large data files, if any
+*.csv
+*.sqlite
+system_monitor_db.sql  # If you export database schema to a SQL file, you might want to ignore it
+*.dump
+
+# Configuration files - IMPORTANT!
+config.ini  # Ignore your config.ini file to prevent committing sensitive data!
+
+# OS and Editor specific files
+.DS_Store  # macOS Desktop Services Store
+.Trashes
+Thumbs.db  # Windows thumbnail cache
+*.idea/   # IntelliJ IDEA project files
+.vscode/  # VS Code settings and extensions
+*.project
+*.workspace
+*.settings
+*.tmproj
+*.tmtxt
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / Packaging
+dist/
+build/
+*.egg
+*.whl
+
+# Temporary files
+*.tmp
+temp/
+tmp/
